@@ -28,10 +28,6 @@ For Figma Agent, which currently accepts a single Markdown file, upload [`dist/l
 - Use our approved Japanese copy and show which screens are not ready for linguistic QA.
 - Run a quick localization scan on this pricing page, including currencies, dates, and pseudolocalized coverage.
 
-## Demo
-
-[Open the editable Figma Community demo](https://www.figma.com/design/lHpNlCTp8BuXPtvAc2UhA3)
-
 ## Requirements
 
 - A host agent that supports Agent Skills
