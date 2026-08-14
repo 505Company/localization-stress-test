@@ -1,0 +1,4 @@
+interface:
+  display_name: "Localization Stress Test"
+  short_description: "Stress-test Figma layouts for localization"
+  default_prompt: "Use $localization-stress-test to test the selected Figma screens for translation expansion, RTL, formatting, and layout failures."
