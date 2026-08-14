@@ -1,5 +1,7 @@
 # Localization Stress Test
 
+![Localization Stress Test cover](assets/cover.png)
+
 Stress-test selected Figma screens, components, or flows for localization readiness before approved translations reach production.
 
 The skill preserves the source, creates isolated pressure variants, and produces a reviewable evidence board with stable findings, a coverage matrix, and a prioritized remediation queue.
