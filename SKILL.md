@@ -7,6 +7,17 @@ description: Stress-test selected Figma screens, components, or flows for locali
 
 Test whether a design system survives the geometry and direction changes caused by localization. Work from evidence on the selected canvas objects. Do not claim that generated sample copy is a validated translation.
 
+## Execute in Figma
+
+1. Inspect the current selection through the Plugin API and identify editable top-level frames, components, or sections.
+2. Summarize the selected scope and visible design character in 2–4 sentences. If the selection is usable and the request is unambiguous, continue without asking the user to approve the audit structure.
+3. Create the complete audit as a sibling section. Modify only duplicates and clearly labeled proposals.
+4. Before editing text, inspect mixed text styles and load every affected font style with `figma.loadFontAsync()`. Preserve style ranges; edit only overrideable text in instances.
+5. Create nodes in bounded batches, assign stable names, and retain their IDs for the final response.
+6. Re-read the created section and capture a screenshot. Verify label alignment, readable evidence, unclipped text, and separation between source, findings, and proposals.
+
+Finish with clickable links to the audit section, evidence matrix, and proposal row when present. Use node IDs returned by Figma; do not invent links.
+
 ## Before editing
 
 1. Identify the selected top-level frames or components and their product context.
